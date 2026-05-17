@@ -6,10 +6,7 @@
   "main": "backend/server.js",
   "scripts": {
     "start": "node backend/server.js",
-    "dev": "node backend/server.js",
-    "build": "react-scripts build",
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "dev": "node backend/server.js"
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
@@ -18,8 +15,5 @@
     "express": "^4.19.2",
     "jsonwebtoken": "^9.0.2",
     "multer": "^1.4.5-lts.1"
-  },
-  "devDependencies": {
-    "gh-pages": "^6.1.1"
   }
 }
