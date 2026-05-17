@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learners OTT</title>
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="logo">
+            <i class="fa-solid fa-play"></i> Learners<span>OTT</span>
+        </div>
+        
+        <div class="search-wrapper">
+            <div class="search-box">
+                <i class="fa-solid fa-search"></i>
+                <input type="text" id="searchInput" placeholder="Search your library...">
+            </div>
+            <div class="filter-pills">
+                <select id="typeSelect" class="filter-pill" title="Filter by type">
+                    <option value="">All Types</option>
+                    <option value="pdf">PDF</option>
+                    <option value="docx">Word</option>
+                    <option value="pptx">PPT</option>
+                </select>
+                <select id="tagSelect" class="filter-pill" title="Filter by category">
+                    <option value="">All Categories</option>
+                    <option value="Linux">Linux</option>
+                    <option value="Cloud">Cloud</option>
+                    <option value="CI/CD">CI/CD</option>
+                    <option value="RedHat">RedHat</option>
+                    <option value="Networking">Networking</option>
+                    <option value="DevOps">DevOps</option>
+                    <option value="Uncategorized">Uncategorized</option>
+                </select>
+                <select id="sortSelect" class="filter-pill" title="Sort by">
+                    <option value="newest">Newest</option>
+                    <option value="oldest">Oldest</option>
+                    <option value="a-z">A-Z</option>
+                    <option value="z-a">Z-A</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="nav-links">
+            <button id="themeToggle" class="icon-btn"><i class="fa-solid fa-moon"></i></button>
+            <div id="authSection">
+                <!-- Dynamically injected login/register or profile buttons -->
+            </div>
+        </div>
+        <div class="mobile-menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div id="globalProgress" class="global-progress"></div>
+
+    <!-- Sidebar (Hidden by default on mobile) -->
+    <aside class="sidebar" id="sidebar">
+        <ul class="sidebar-menu">
+            <li class="active" data-view="home"><i class="fa-solid fa-home"></i> Home</li>
+            <li data-view="allFiles"><i class="fa-solid fa-folder-open"></i> All Files</li>
+            <li data-view="favorites"><i class="fa-solid fa-heart"></i> Favorites</li>
+            <!-- Admin links injected dynamically -->
+            <div id="adminLinks"></div>
+        </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content" id="app">
+        <!-- Views will be dynamically injected here -->
+        <div id="loadingIndicator" style="display: none;">
+            <div class="spinner"></div>
+        </div>
+        <div id="viewContainer"></div>
+    </main>
+
+    <!-- File Viewer Modal -->
+    <div id="fileViewerOverlay" class="modal-overlay" style="z-index: 3000;">
+        <div class="file-viewer-container glass-panel">
+            <div class="file-viewer-header">
+                <h3 id="fileViewerTitle">Document Preview</h3>
+                <div class="file-viewer-actions">
+                    <button class="btn icon-btn" id="fileViewerDownloadBtn" title="Download"><i class="fa-solid fa-download"></i></button>
+                    <button class="btn icon-btn close-viewer-btn" onclick="window.app.closeFileViewer()" title="Close"><i class="fa-solid fa-times"></i></button>
+                </div>
+            </div>
+            <div id="fileViewerContent" class="file-viewer-content">
+                <!-- Iframe or Fallback goes here -->
+            </div>
+        </div>
+    </div>
+    <!-- Floating Scroll-Up Button -->
+    <button id="scrollToTopBtn" class="scroll-up-btn glow-btn">
+        <i class="fa-solid fa-arrow-up"></i>
+    </button>
+
+    <!-- Scripts -->
+    <!-- Motion One via CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/motion@11.11.13/dist/motion.js"></script>
+    <!-- App Logic -->
+    <script src="js/api.js"></script>
+    <script src="js/components.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/app.js"></script>
+	<footer class="footer">
+    <div class="footer-content">
+        &copy; 2026 Learner's OTT &bull; Designed by
+        <span class="team-name">HomeServer Team</span>
+        &bull; All Rights Reserved
+    </div>
+</footer>
+</body>
+</html>

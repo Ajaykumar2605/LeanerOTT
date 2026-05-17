@@ -1,0 +1,576 @@
+{
+  "users": [
+    {
+      "id": "7f1cdccf-2303-413b-bbf5-f757d91ccbdf",
+      "username": "admin",
+      "password": "$2a$10$5OyBC/PAYSXlKo6kSKCfaeonkoIouF3i0qxu4.FvEu7zlwKLEsu6C",
+      "role": "admin"
+    },
+    {
+      "id": "cfd47022-231c-4e67-a845-7a582d0d3880",
+      "username": "leaner",
+      "password": "$2a$10$J/EwzZDPnpq8l2zyOtEWBuRJiJCzGluTH6rvHJJJ.oCRjVAcZLzyG",
+      "role": "learner"
+    },
+    {
+      "id": "38825ea8-6ac5-4269-97d6-6ddce3fba71d",
+      "username": "testuser",
+      "password": "$2a$10$7.Bo2GObewKdRy42jZtqBuCE4VD6301tBTCyfczH9PrdrBsIbzJte",
+      "role": "learner"
+    },
+    {
+      "id": "6aa83430-ad77-4d6f-aae5-99f298deadd2",
+      "username": "newtester",
+      "password": "$2a$10$CZlTBEg40.NcAZhEKJhKeOjuSRgoPlaea3xZdUnzjOKrfQhtPaO72",
+      "role": "learner"
+    }
+  ],
+  "files": [
+    {
+      "id": "fc73f532-6f8c-462c-963b-6193516e5bec",
+      "title": "AWS overview ",
+      "filename": "AWS overview .pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:06.599Z",
+      "size": 9511668
+    },
+    {
+      "id": "9671acb6-7756-4cd9-8553-d1b8636dda66",
+      "title": "AWS-SAA-Lab",
+      "filename": "AWS-SAA-Lab.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:07.024Z",
+      "size": 1741645
+    },
+    {
+      "id": "add1e222-da4e-4e12-bf5e-2b61fedfde43",
+      "title": "Bash Scripting",
+      "filename": "Bash Scripting.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:07.185Z",
+      "size": 363844
+    },
+    {
+      "id": "dc44ea12-cb68-4e0f-944e-c7f900760d4d",
+      "title": "CCNA 200 301",
+      "filename": "CCNA 200 301.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:07.262Z",
+      "size": 64391493
+    },
+    {
+      "id": "ca545765-ab6c-45fa-8257-9d9c77b236cd",
+      "title": "Complete_Shell_Scripting_Course",
+      "filename": "Complete_Shell_Scripting_Course.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:09.718Z",
+      "size": 10201
+    },
+    {
+      "id": "8b4dd95f-5f7d-42a4-a7c9-6e9b8dea1828",
+      "title": "Daywise_breakup",
+      "filename": "Daywise_breakup.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:09.762Z",
+      "size": 528647
+    },
+    {
+      "id": "cb77c539-2ada-4a1f-96df-cd2297c588d7",
+      "title": "devops command full",
+      "filename": "devops command full.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:09.824Z",
+      "size": 193114
+    },
+    {
+      "id": "f4ddde46-bc41-4e96-aaf0-2e77b1b51d96",
+      "title": "Devops command",
+      "filename": "Devops command.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:09.876Z",
+      "size": 12575
+    },
+    {
+      "id": "d1dd306d-1c1c-4578-9342-d87d1fb83361",
+      "title": "DevOps Commands",
+      "filename": "DevOps Commands.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:09.912Z",
+      "size": 251274
+    },
+    {
+      "id": "7712843f-4e29-4bdb-b09b-cc7ca78d0b79",
+      "title": "DevOps Linux Q&A Guide_ 200 Common Issues & Fixes",
+      "filename": "DevOps Linux Q&A Guide_ 200 Common Issues & Fixes.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:09.961Z",
+      "size": 1205863
+    },
+    {
+      "id": "409bcb79-55f3-4ecc-93e8-030a71886743",
+      "title": "devops linux sheet",
+      "filename": "devops linux sheet.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.045Z",
+      "size": 618456
+    },
+    {
+      "id": "f3298407-f785-4b29-bb65-4578d4dfb84c",
+      "title": "DevOps Shack _ Enterprise Automation with GitHub Actions",
+      "filename": "DevOps Shack _ Enterprise Automation with GitHub Actions.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.104Z",
+      "size": 653889
+    },
+    {
+      "id": "381e648e-52e2-4665-a115-a37c1d8f884f",
+      "title": "devops tools",
+      "filename": "devops tools.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.177Z",
+      "size": 1615062
+    },
+    {
+      "id": "0bdbe7ad-da5d-46f2-b961-22ef25181737",
+      "title": "DevOps",
+      "filename": "DevOps.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.272Z",
+      "size": 1568264
+    },
+    {
+      "id": "1744d432-cc3a-4ba7-a16a-32f0f4d8ac6b",
+      "title": "DevOps_Roadmap_3_Months",
+      "filename": "DevOps_Roadmap_3_Months.docx",
+      "type": "docx",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.369Z",
+      "size": 38574
+    },
+    {
+      "id": "8e18b406-68fa-4560-b35d-fb1db5c7c9a2",
+      "title": "DevOps_Roadmap_3_Months_With_Checklist",
+      "filename": "DevOps_Roadmap_3_Months_With_Checklist.docx",
+      "type": "docx",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.413Z",
+      "size": 38928
+    },
+    {
+      "id": "dd752156-370f-4682-9688-0cbadd2984c0",
+      "title": "End-to-End Linux Patch Management with Real-Time Examples",
+      "filename": "End-to-End Linux Patch Management with Real-Time Examples.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.463Z",
+      "size": 151139
+    },
+    {
+      "id": "ba32615f-672d-497a-8642-2b1d56a1a1c1",
+      "title": "Git and GitHub ",
+      "filename": "Git and GitHub .pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.512Z",
+      "size": 500991
+    },
+    {
+      "id": "eb33176f-22df-469b-be90-d73bdebff748",
+      "title": "Git and GitHub",
+      "filename": "Git and GitHub.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:10.560Z",
+      "size": 7151999
+    },
+    {
+      "id": "d3a235c6-8b24-4c6d-92b4-b525646edfef",
+      "title": "Git Basics and Essential commands",
+      "filename": "Git Basics and Essential commands.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:11.013Z",
+      "size": 67886
+    },
+    {
+      "id": "3ce581a3-dc17-4cec-aa1b-7b851bd3e5aa",
+      "title": "GIT CHEAT SHEET",
+      "filename": "GIT CHEAT SHEET.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:11.148Z",
+      "size": 100194
+    },
+    {
+      "id": "d8930943-9f1c-4836-8c14-e0ca279de5cb",
+      "title": "Git Commands",
+      "filename": "Git Commands.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:11.200Z",
+      "size": 529564
+    },
+    {
+      "id": "e9b7230b-d1f1-462c-b42f-509b301e9056",
+      "title": "Grafana installation and configuration",
+      "filename": "Grafana installation and configuration.docx",
+      "type": "docx",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:11.251Z",
+      "size": 39978
+    },
+    {
+      "id": "f59fce76-f9a5-4b0d-be25-45265f15f74c",
+      "title": "Home_Server_Setup_Guide",
+      "filename": "Home_Server_Setup_Guide.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:11.276Z",
+      "size": 3538
+    },
+    {
+      "id": "8c45d8e5-3c49-4b1b-91b8-d5060e81a8df",
+      "title": "Jenkins full guide",
+      "filename": "Jenkins full guide.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:11.331Z",
+      "size": 18487973
+    },
+    {
+      "id": "748118ea-1b0a-46e8-9966-926538850b2a",
+      "title": "Kubernetes",
+      "filename": "Kubernetes.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.103Z",
+      "size": 1231989
+    },
+    {
+      "id": "95565e0a-16a7-46c1-a6bf-fa3b5df2194b",
+      "title": "kubernets doc",
+      "filename": "kubernets doc.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.212Z",
+      "size": 5051038
+    },
+    {
+      "id": "1a710a42-ebaf-4526-9866-05ff7b1babe0",
+      "title": "Linux and shell scripting",
+      "filename": "Linux and shell scripting.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.471Z",
+      "size": 5304543
+    },
+    {
+      "id": "488d8ea1-4e22-4254-b6da-1e3f8d1eb176",
+      "title": "Linux Cheat Sheet",
+      "filename": "Linux Cheat Sheet.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.725Z",
+      "size": 438820
+    },
+    {
+      "id": "02caf2f0-bb4e-4775-9aaf-7620e198e3ff",
+      "title": "Linux CheatSheet for Devops-1",
+      "filename": "Linux CheatSheet for Devops-1.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.818Z",
+      "size": 195607
+    },
+    {
+      "id": "8dab57be-9cf2-4357-981d-7c73255afc77",
+      "title": "Linux commands",
+      "filename": "Linux commands.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.874Z",
+      "size": 179539
+    },
+    {
+      "id": "b31c0383-ad86-4e29-9894-14650dae436c",
+      "title": "Linux Essentials",
+      "filename": "Linux Essentials.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.918Z",
+      "size": 181332
+    },
+    {
+      "id": "9acc8095-c89b-4b2b-9503-413625bd7284",
+      "title": "Linux for Devops",
+      "filename": "Linux for Devops.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:12.948Z",
+      "size": 5214841
+    },
+    {
+      "id": "59841529-3ffc-4a57-aac2-9b86a1f77a14",
+      "title": "Linux full commands",
+      "filename": "Linux full commands.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:13.246Z",
+      "size": 5215051
+    },
+    {
+      "id": "7ec981a6-d40b-43aa-86b1-3843d108555c",
+      "title": "Linux interview Question ",
+      "filename": "Linux interview Question .pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:13.521Z",
+      "size": 2675993
+    },
+    {
+      "id": "d422a9ce-ad62-4904-b4df-9d9fdaec9b10",
+      "title": "Linux Interview Question and Answer ",
+      "filename": "Linux Interview Question and Answer .pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:13.746Z",
+      "size": 343183
+    },
+    {
+      "id": "7a36f412-678d-4f48-8f47-1a2d29408d59",
+      "title": "Linux interview questions and answers ",
+      "filename": "Linux interview questions and answers .pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:13.906Z",
+      "size": 149361
+    },
+    {
+      "id": "fa33b080-87ab-456d-a748-41c4b460bf45",
+      "title": "Linux interview questions",
+      "filename": "Linux interview questions.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:13.968Z",
+      "size": 1568441
+    },
+    {
+      "id": "3e505b46-d943-47d6-97b9-a2e01c111e0d",
+      "title": "linux scenario for devops",
+      "filename": "linux scenario for devops.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:14.060Z",
+      "size": 46773
+    },
+    {
+      "id": "c68c6a54-ed32-4f44-bbb0-07a8067f9d86",
+      "title": "Linux System Administrator Interview Preparation Handbook",
+      "filename": "Linux System Administrator Interview Preparation Handbook.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:14.097Z",
+      "size": 2142932
+    },
+    {
+      "id": "287619c4-807c-4951-9590-5b10849828b5",
+      "title": "Linux-1",
+      "filename": "Linux-1.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:14.474Z",
+      "size": 5214841
+    },
+    {
+      "id": "c9d74a9d-4555-4e15-ad8b-9124ac99d1ff",
+      "title": "Linux",
+      "filename": "Linux.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:14.239Z",
+      "size": 1517138
+    },
+    {
+      "id": "802f6db3-b834-40aa-b730-612f658f7642",
+      "title": "Master Linux & Shell Scripting",
+      "filename": "Master Linux & Shell Scripting.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:14.767Z",
+      "size": 1120530
+    },
+    {
+      "id": "c0e3d7f0-0f8c-4fab-9d9f-52bd96b31fe1",
+      "title": "Mastering Linux Commands",
+      "filename": "Mastering Linux Commands.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:14.889Z",
+      "size": 602897
+    },
+    {
+      "id": "bad19c9e-ff21-43af-9a8f-e51c99afa380",
+      "title": "Migrate Data from Faulty Disk to New Disk",
+      "filename": "Migrate Data from Faulty Disk to New Disk.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:14.963Z",
+      "size": 825073
+    },
+    {
+      "id": "11774e92-1eac-4ba0-a608-aa1e2a9a7d05",
+      "title": "Network automation",
+      "filename": "Network automation.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.026Z",
+      "size": 4077209
+    },
+    {
+      "id": "5ffab361-bdfb-4954-8d28-89f83ab7108c",
+      "title": "networking on linux",
+      "filename": "networking on linux.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.324Z",
+      "size": 171277
+    },
+    {
+      "id": "d6376210-ac0a-4fbe-aefc-81c7137edbc4",
+      "title": "OSCP Exam Training Program",
+      "filename": "OSCP Exam Training Program.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.369Z",
+      "size": 1756748
+    },
+    {
+      "id": "2ca65352-602b-4827-a61e-9d887c77fda8",
+      "title": "Production Server Real Scenario based interview questions ",
+      "filename": "Production Server Real Scenario based interview questions .pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.456Z",
+      "size": 200885
+    },
+    {
+      "id": "ea1c9d3d-1b60-44eb-878c-36810ea06a7a",
+      "title": "Prometheus & Grafana",
+      "filename": "Prometheus & Grafana.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.494Z",
+      "size": 5068035
+    },
+    {
+      "id": "0f48bd72-417c-400d-9e72-d7e6510058aa",
+      "title": "RAID 0",
+      "filename": "RAID 0.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.796Z",
+      "size": 1067956
+    },
+    {
+      "id": "7ea128d0-977b-4001-af65-7afe48f08504",
+      "title": "RHEL 7.9 to 8.9 Upgrade Using Leapp – Step-by-Step Guide",
+      "filename": "RHEL 7.9 to 8.9 Upgrade Using Leapp – Step-by-Step Guide.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.874Z",
+      "size": 608315
+    },
+    {
+      "id": "c378c5cf-6b18-4531-bc05-516f4f33da2f",
+      "title": "Scenario_based_Linux_Interview_QnA",
+      "filename": "Scenario_based_Linux_Interview_QnA.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.938Z",
+      "size": 670654
+    },
+    {
+      "id": "b1c8753f-2631-48a2-a3c1-8c485bc5f24f",
+      "title": "shell scripting",
+      "filename": "shell scripting.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:15.994Z",
+      "size": 555650
+    },
+    {
+      "id": "4b00cbfc-3e7f-4fa0-8daa-0c7cf01cbb36",
+      "title": "Shell_Scripting_Full_Course",
+      "filename": "Shell_Scripting_Full_Course.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:16.059Z",
+      "size": 5066
+    },
+    {
+      "id": "4f8fa8c5-bc2f-482c-a616-4e83e36e86c7",
+      "title": "Storage Management in Linux for Beginners",
+      "filename": "Storage Management in Linux for Beginners.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:16.109Z",
+      "size": 4642251
+    },
+    {
+      "id": "d5c81698-ac8a-4719-a0c2-1c55e3b3de37",
+      "title": "Top 200 linux interview questions",
+      "filename": "Top 200 linux interview questions.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:16.393Z",
+      "size": 302422
+    },
+    {
+      "id": "e9a469f6-e55a-48b1-a7ad-34ef697ee720",
+      "title": "🚀 Shell Scripting Handbook",
+      "filename": "🚀 Shell Scripting Handbook.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T13:03:16.446Z",
+      "size": 556170
+    },
+    {
+      "id": "8b4ea131-9854-4b4e-bbda-2db99a419c49",
+      "title": "basic linux",
+      "filename": "basic linux.pdf",
+      "type": "pdf",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T09:39:50.926Z",
+      "size": 5215172
+    },
+    {
+      "id": "70af26b4-a5b2-4c58-bcbc-4cd8a03f157e",
+      "title": "sample-document",
+      "filename": "sample-document.txt",
+      "type": "txt",
+      "category": "Uncategorized",
+      "uploadedAt": "2026-05-16T08:46:57.552Z",
+      "size": 124
+    }
+  ],
+  "favorites": [
+    {
+      "userId": "cfd47022-231c-4e67-a845-7a582d0d3880",
+      "fileId": "5618f344-faa8-42be-b128-bb1472a4c758"
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+This is a dummy PDF file just to test the database scanner logic.
+In a real scenario, this would be an actual PDF document.
