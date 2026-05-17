@@ -5,24 +5,6 @@
       "username": "admin",
       "password": "$2a$10$5OyBC/PAYSXlKo6kSKCfaeonkoIouF3i0qxu4.FvEu7zlwKLEsu6C",
       "role": "admin"
-    },
-    {
-      "id": "cfd47022-231c-4e67-a845-7a582d0d3880",
-      "username": "leaner",
-      "password": "$2a$10$J/EwzZDPnpq8l2zyOtEWBuRJiJCzGluTH6rvHJJJ.oCRjVAcZLzyG",
-      "role": "learner"
-    },
-    {
-      "id": "38825ea8-6ac5-4269-97d6-6ddce3fba71d",
-      "username": "testuser",
-      "password": "$2a$10$7.Bo2GObewKdRy42jZtqBuCE4VD6301tBTCyfczH9PrdrBsIbzJte",
-      "role": "learner"
-    },
-    {
-      "id": "6aa83430-ad77-4d6f-aae5-99f298deadd2",
-      "username": "newtester",
-      "password": "$2a$10$CZlTBEg40.NcAZhEKJhKeOjuSRgoPlaea3xZdUnzjOKrfQhtPaO72",
-      "role": "learner"
     }
   ],
   "files": [
